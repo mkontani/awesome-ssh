@@ -114,6 +114,7 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 * [ssh-ident](https://github.com/ccontavalli/ssh-ident) [![stars](https://img.shields.io/github/stars/ccontavalli/ssh-ident.svg?style=social&label=stars)](https://github.com/ccontavalli/ssh-ident) - Different agents and different keys for different projects, with `ssh`.
 * [oh-my-zsh/plugins/ssh-agent](https://github.com/robbyrussell/oh-my-zsh) [![stars](https://img.shields.io/github/stars/robbyrussell/oh-my-zsh.svg?style=social&label=stars)](https://github.com/robbyrussell/oh-my-zsh) - `ssh-agent` plugin for `zsh`.
 * [sshecret](https://github.com/thcipriani/sshecret) - Automatically create and manage multiple agents for multiple keys.
+* [wsl-ssh-agent](https://github.com/rupor-github/wsl-ssh-agent) [![stars](https://img.shields.io/github/stars/rupor-github/wsl-ssh-agent.svg?style=social&label=stars)](https://github.com/rupor-github/wsl-ssh-agent) - Helper to interface with Windows ssh-agent.exe service from Windows Subsystem for Linux (WSL).
 
 ### Tools
 
