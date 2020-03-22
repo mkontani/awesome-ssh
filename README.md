@@ -27,6 +27,7 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
     - [Alternatives to SSH](#alternatives-to-ssh)
   - [Libraries](#libraries)
   - [Resources](#resources)
+    - [OpenSSH](#openssh)
     - [Tutorials](#tutorials)
     - [Security](#security)
     - [Documentation](#documentation)
@@ -66,6 +67,7 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 * [teleport](https://github.com/gravitational/teleport) [![stars](https://img.shields.io/github/stars/gravitational/teleport.svg?style=social&label=stars)](https://github.com/gravitational/teleport) - Modern *SSH* server for clusters and teams.
 * [certificates](https://github.com/smallstep/certificates) [![stars](https://img.shields.io/github/stars/smallstep/certificates.svg?style=social&label=stars)](https://github.com/smallstep/certificates) - A private certificate authority (X.509 & SSH).
 * [bless](https://github.com/Netflix/bless) [![stars](https://img.shields.io/github/stars/Netflix/bless.svg?style=social&label=stars)](https://github.com/Netflix/bless) - an SSH Certificate Authority that runs as a AWS Lambda function.
+* [vault](https://github.com/hashicorp/vault) [![stars](https://img.shields.io/github/stars/hashicorp/vault.svg?style=social&label=stars)](https://github.com/hashicorp/vault) - A tool for secrets management which has [SSH Secrets Engine](https://www.vaultproject.io/docs/secrets/ssh/index.html).
 * [ssh-cert-authority](https://github.com/cloudtools/ssh-cert-authority) [![stars](https://img.shields.io/github/stars/cloudtools/ssh-cert-authority.svg?style=social&label=stars)](https://github.com/cloudtools/ssh-cert-authority) - An implementation of an SSH certificate authority.
 * [cashier](https://github.com/nsheridan/cashier) [![stars](https://img.shields.io/github/stars/nsheridan/cashier.svg?style=social&label=stars)](https://github.com/nsheridan/cashier) - A self-service CA for OpenSSH
 * [cassh](https://github.com/nbeguier/cassh) [![stars](https://img.shields.io/github/stars/nbeguier/cassh.svg?style=social&label=stars)](https://github.com/nbeguier/cassh) - SSH CA administration via CLI and GUI.
