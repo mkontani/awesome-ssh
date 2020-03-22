@@ -8,29 +8,29 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
 Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contribute.
 
-**Check out my [blog](https://manfred.life/) 🦄 or say *hi* on [Twitter](https://twitter.com/moul).**
 
 ## Table of Contents
 
-- [Apps](#apps)
-  - [`.ssh/config`](#sshconfig)
-  - [Tools using the *SSH* protocol](#tools-using-the-ssh-protocol)
-  - [Servers](#servers)
-  - [Network](#network)
-  - [Multiplexers](#multiplexers)
-  - [SSH Keys / Authentication](#ssh-keys--authentication)
-  - [SSH agent](#ssh-agent)
-  - [Tools](#tools)
-  - [Automation](#automation)
-  - [Web](#web)
-  - [Testing / Honeypots](#testing--honeypots)
-  - [Alternatives to SSH](#alternatives-to-ssh)
-- [Libraries](#libraries)
-- [Resources](#resources)
-  - [Tutorials](#tutorials)
-  - [Security](#security)
-  - [Documentation](#documentation)
-  - [Community](#community)
+  - [Apps](#apps)
+    - [`.ssh/config`](#sshconfig)
+    - [Tools using the *SSH* protocol](#tools-using-the-ssh-protocol)
+    - [Servers](#servers)
+    - [Certificate Authorities](#certificate-authorities)
+    - [Network](#network)
+    - [Multiplexers](#multiplexers)
+    - [SSH Keys / Authentication](#ssh-keys--authentication)
+    - [SSH agent](#ssh-agent)
+    - [Tools](#tools)
+    - [Automation](#automation)
+    - [Web](#web)
+    - [Testing / Honeypots](#testing--honeypots)
+    - [Alternatives to SSH](#alternatives-to-ssh)
+  - [Libraries](#libraries)
+  - [Resources](#resources)
+    - [Tutorials](#tutorials)
+    - [Security](#security)
+    - [Documentation](#documentation)
+    - [Community](#community)
 
 ## Apps
 
@@ -61,6 +61,16 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
 * [x84](https://github.com/jquast/x84) [![stars](https://img.shields.io/github/stars/jquast/x84.svg?style=social&label=stars)](https://github.com/jquast/x84) - A *python* `telnet`/`ssh` server for modern *UTF-8* and classic *cp437* network virtual terminals. In spirit of classic software such as *ami/x*, *teleguard*, *renegade*, *iniquity*.
 * [teleport](https://github.com/gravitational/teleport) [![stars](https://img.shields.io/github/stars/gravitational/teleport.svg?style=social&label=stars)](https://github.com/gravitational/teleport) - Modern *SSH* server for clusters and teams.
 * [ShellHub](https://github.com/shellhub-io/shellhub) [![stars](https://img.shields.io/github/stars/shellhub-io/shellhub.svg?style=social&label=stars)](https://github.com/shellhub-io/shellhub) - A *SSH* gateway for remotely accessing any Linux device behind firewall and NAT.
+
+### Certificate Authorities
+* [teleport](https://github.com/gravitational/teleport) [![stars](https://img.shields.io/github/stars/gravitational/teleport.svg?style=social&label=stars)](https://github.com/gravitational/teleport) - Modern *SSH* server for clusters and teams.
+* [certificates](https://github.com/smallstep/certificates) [![stars](https://img.shields.io/github/stars/smallstep/certificates.svg?style=social&label=stars)](https://github.com/smallstep/certificates) - A private certificate authority (X.509 & SSH).
+* [bless](https://github.com/Netflix/bless) [![stars](https://img.shields.io/github/stars/Netflix/bless.svg?style=social&label=stars)](https://github.com/Netflix/bless) - an SSH Certificate Authority that runs as a AWS Lambda function.
+* [ssh-cert-authority](https://github.com/cloudtools/ssh-cert-authority) [![stars](https://img.shields.io/github/stars/cloudtools/ssh-cert-authority.svg?style=social&label=stars)](https://github.com/cloudtools/ssh-cert-authority) - An implementation of an SSH certificate authority.
+* [cashier](https://github.com/nsheridan/cashier) [![stars](https://img.shields.io/github/stars/nsheridan/cashier.svg?style=social&label=stars)](https://github.com/nsheridan/cashier) - A self-service CA for OpenSSH
+* [cassh](https://github.com/nbeguier/cassh) [![stars](https://img.shields.io/github/stars/nbeguier/cassh.svg?style=social&label=stars)](https://github.com/nbeguier/cassh) - SSH CA administration via CLI and GUI.
+* [keymaster](https://github.com/Cloud-Foundations/keymaster) [![stars](https://img.shields.io/github/stars/Cloud-Foundations/keymaster.svg?style=social&label=stars)](https://github.com/Cloud-Foundations/keymaster) - Short term certificate based identity system (ssh/x509 ca + openidc).
+* [pam-ussh](https://github.com/uber/pam-ussh) [![stars](https://img.shields.io/github/stars/uber/pam-ussh.svg?style=social&label=stars)](https://github.com/uber/pam-ussh) - uber's ssh certificate pam module.
 
 ### Network
 
@@ -166,6 +176,13 @@ Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contri
   * [net-ssh](https://github.com/net-ssh/net-ssh) [![stars](https://img.shields.io/github/stars/net-ssh/net-ssh.svg?style=social&label=stars)](https://github.com/net-ssh/net-ssh) - Pure *Ruby* implementation of an *SSH* (protocol 2) client.
 
 ## Resources
+
+### OpenSSH
+
+* [`openssh-portable`](https://github.com/openssh/openssh-portable) [![stars](https://img.shields.io/github/stars/openssh/openssh-portable.svg?style=social&label=stars)](https://github.com/openssh/openssh-portable) - Portable OpenSSH.
+* [Release notes](https://www.openssh.com/releasenotes.html)
+* [mailing list (archive mirror)](https://marc.info/?l=openssh-unix-dev)
+  
 
 ### Tutorials
 
